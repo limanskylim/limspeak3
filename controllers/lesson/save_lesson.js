@@ -33,7 +33,7 @@ const saveLesson = (data, score, userId, lessonId) => {
       //нет файла для пройденных уроков
       const arr = []
       arr.push(passedLesson)
-      fs.writeFileSync(filePath, JSON.stringify(passes), 'utf-8')
+      fs.writeFileSync(filePath, JSON.stringify(arr), 'utf-8')
     }
 
     console.log('добавлен урок в пройденные')

@@ -1008,3 +1008,26 @@ form .secret-input {
     font-size: 20px;
   }
 }
+
+/* MEDIA MAX-HEIGHT 400px*/
+@media screen and (max-height: 400px) {
+
+  .menu,
+  .lesson-title,
+  .info {
+    display: none;
+  }
+
+  .lesson-body {
+    height: 100vh;
+  }
+
+  .lesson-body .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .english {
+    border-bottom: none;
+  }
+}
