@@ -1,0 +1,157 @@
+[
+    {
+        "eng": "I know where it is.",
+        "tr": "Я знаю, где это.",
+        "help": "it"
+    },
+    {
+        "eng": "I don't know where it is.",
+        "tr": "Я не знаю, где это.",
+        "help": "it"
+    },
+    {
+        "eng": "We don't know where it is.",
+        "tr": "Мы не знаем, где это.",
+        "help": "it"
+    },
+    {
+        "eng": "Do you have a mobile phone?",
+        "tr": "У тебя есть мобильный телефон?",
+        "help": ""
+    },
+    {
+        "eng": "Yes, I have a mobile phone.",
+        "tr": "Да, у меня есть мобильный телефон.",
+        "help": ""
+    },
+    {
+        "eng": "It's very good.",
+        "tr": "Э'то очень хорошо.",
+        "help": "It'"
+    },
+    {
+        "eng": "I don't have a mobile phone.",
+        "tr": "У меня нет мобильного телефона.",
+        "help": ""
+    },
+    {
+        "eng": "I have coffee.",
+        "tr": "У меня есть кофе.",
+        "help": ""
+    },
+    {
+        "eng": "Do you want coffee?",
+        "tr": "Хочешь кофе?",
+        "help": ""
+    },
+    {
+        "eng": "No, I don't want coffee. I want tea.",
+        "tr": "Нет, я не хочу кофе. Я хочу чай.",
+        "help": ""
+    },
+    {
+        "eng": "I don't want an iPhone.",
+        "tr": "Я не хочу Айфон.",
+        "help": ""
+    },
+    {
+        "eng": "Excuse me, do you know where it is? — I'm sorry, I don't know.",
+        "tr": "Простите, вы знаете, где это? — Извините, я' не знаю.",
+        "help": "it"
+    },
+    {
+        "eng": "Thank you.",
+        "tr": "Спасибо.",
+        "help": "you"
+    },
+    {
+        "eng": "Excuse me, do you know where the coffee shop is?",
+        "tr": "Извините, вы знаете, где находится* кафе?",
+        "help": ""
+    },
+    {
+        "eng": "The coffee shop is here. It's here.",
+        "tr": "Кофейня здесь. Э'то здесь.",
+        "help": "It'"
+    },
+    {
+        "eng": "Excuse me, do you know where the bank is? — Yes, I do. It's here.",
+        "tr": "Извините, вы не знаете, где находится* банк? — Да... Э'то здесь.",
+        "help": "Да... (знаю)"
+    },
+    {
+        "eng": "I don't know where the coffee shop is.",
+        "tr": "Я не знаю, где находится кафе.",
+        "help": ""
+    },
+    {
+        "eng": "Do you want tea or coffee?",
+        "tr": "Хотите чай или кофе?",
+        "help": ""
+    },
+    {
+        "eng": "I want tea.",
+        "tr": "Я хочу чай.",
+        "help": ""
+    },
+    {
+        "eng": "Tea please.",
+        "tr": "Чай, пожалуйста.",
+        "help": ""
+    },
+    {
+        "eng": "Do you have tea?",
+        "tr": "У вас есть чай?",
+        "help": ""
+    },
+    {
+        "eng": "No, I don't have tea. I have coffee.",
+        "tr": "Нет, у меня нет чая. У меня есть кофе.",
+        "help": ""
+    },
+    {
+        "eng": "But I don't want coffee. I want tea.",
+        "tr": "Но я не хочу кофе. Я хочу чай.",
+        "help": ""
+    },
+    {
+        "eng": "They don't want to know this.",
+        "tr": "Они не хотят знать этого.",
+        "help": "this"
+    },
+    {
+        "eng": "We don't have it.",
+        "tr": "У нас этого нет.",
+        "help": "it"
+    },
+    {
+        "eng": "Do they have it?",
+        "tr": "У них есть это?",
+        "help": "it"
+    },
+    {
+        "eng": "Are you sure you know where it is?",
+        "tr": "Ты уверен, (что) знаешь, где это?",
+        "help": "it"
+    },
+    {
+        "eng": "Are you sure you want this?",
+        "tr": "Вы уверены, (что) хотите этого?",
+        "help": "this"
+    },
+    {
+        "eng": "Do you have an iPad?",
+        "tr": "У вас есть Айпад?",
+        "help": ""
+    },
+    {
+        "eng": "I don't have an iPad but I have a computer.",
+        "tr": "У меня нет Айпада, но есть компьютер.",
+        "help": ""
+    },
+    {
+        "eng": "Are you comfortable? — Yes, I am. Thank you.",
+        "tr": "Вам удобно? — Да... Спасибо.",
+        "help": "you"
+    }
+]

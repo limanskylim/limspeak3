@@ -1,0 +1,42 @@
+[
+    { "eng": "every", "tr": "каждый", "help": "" },
+    { "eng": "I cook every day.", "tr": "Я готовлю каждый день.", "help": "" },
+    { "eng": "often", "tr": "часто", "help": "" },
+    { "eng": "They often fly.", "tr": "Они часто летают.", "help": "" },
+    { "eng": "Do they often fly?", "tr": "Они часто летают?", "help": "" },
+    { "eng": "at night", "tr": "ночью", "help": "" },
+    { "eng": "always", "tr": "всегда", "help": "" },
+    {
+        "eng": "Do you always work at night?",
+        "tr": "Ты всегда работаешь ночью?",
+        "help": ""
+    },
+    { "eng": "She goes to school.", "tr": "Она ходит в школу.", "help": "" },
+    { "eng": "Does she go to school?", "tr": "Она ходит в школу?", "help": "" },
+    { "eng": "ever", "tr": "когда-либо, вообще", "help": "" },
+    {
+        "eng": "Do you ever go there?",
+        "tr": "Ты когда-либо ходишь туда?",
+        "help": ""
+    },
+    { "eng": "fish", "tr": "рыба", "help": "" },
+    {
+        "eng": "Does he ever eat fish?",
+        "tr": "Он вообще ест рыбу?",
+        "help": ""
+    },
+    { "eng": "Do you always...?", "tr": "Ты всегда...?", "help": "" },
+    { "eng": "Does she often...?", "tr": "Она часто...?", "help": "" },
+    { "eng": "usually", "tr": "обычно", "help": "" },
+    { "eng": "Do they usually...?", "tr": "Они обычно...?", "help": "" },
+    { "eng": "rarely", "tr": "редко", "help": "" },
+    { "eng": "Does he rarely...?", "tr": "Он редко...?", "help": "" },
+    { "eng": "Do you ever...?", "tr": "Ты вообще...?", "help": "" },
+    { "eng": "D'you work?", "tr": "Ты' работаешь?", "help": "джью" },
+    {
+        "eng": "D'you speak English?",
+        "tr": "Ты' говоришь по-английски?",
+        "help": ""
+    },
+    { "eng": "D'you fix cars?", "tr": "Ты' чинишь машины?", "help": "" }
+]

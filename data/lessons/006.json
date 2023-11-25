@@ -1,0 +1,134 @@
+[
+    { "eng": "a restaurant", "tr": "ресторан!", "help": "[ˈrest(ə)rɒnt]" },
+    {
+        "eng": "Is that a restaurant? – Yes, it is.",
+        "tr": "То ресторан? – Да, ...",
+        "help": ""
+    },
+    {
+        "eng": "Excuse me, is that a restaurant? – No, it's not.",
+        "tr": "Извините, то ресторан? – Нет, ...",
+        "help": "...that ... it's not"
+    },
+    {
+        "eng": "Excuse me, are you comfortable like this? – Yes, I am. Thank you.",
+        "tr": "Извините, вам ВОТ ТАК удобно? – Да, … спасибо.",
+        "help": "... this"
+    },
+    {
+        "eng": "Excuse me...",
+        "tr": "Извините... ",
+        "help": "когда ОБРАЩАЕМСЯ с просьбой к человеку"
+    },
+    {
+        "eng": "I am sorry.",
+        "tr": "Мне жаль.",
+        "help": "когда просим ПРОЩЕНИЯ за что-либо"
+    },
+    {
+        "eng": "I am sorry, but this is not a restaurant.",
+        "tr": "Мне жаль, но  это не ресторан.",
+        "help": "что-то рядом == this"
+    },
+    {
+        "eng": "Excuse me, is this a restaurant?",
+        "tr": "Извините, это ресторан?",
+        "help": "что-то рядом == this"
+    },
+    {
+        "eng": "I'm sorry, I'm not sure.",
+        "tr": "М'не жаль, я' не уверен.",
+        "help": ""
+    },
+    {
+        "eng": "Excuse me, are you sure it is a restaurant? – Yes, I am.",
+        "tr": "Извините, вы уверены, (что) это* ресторан? – Да, ...",
+        "help": ""
+    },
+    { "eng": "We are sorry.", "tr": "Простите нас.", "help": "нам жаль" },
+    { "eng": "strange", "tr": "странный", "help": "" },
+    { "eng": "It's strange!", "tr": "Странно!", "help": "Э'то странно." },
+    { "eng": "but", "tr": "но", "help": "" },
+    {
+        "eng": "It's strange, but it's not a restaurant.",
+        "tr": "Странно, но э'то не ресторан.",
+        "help": "not"
+    },
+    {
+        "eng": "It's very strange!",
+        "tr": "Очень странно!",
+        "help": "Э'то очень странно."
+    },
+    {
+        "eng": "It's very strange that you are here.",
+        "tr": "Очень странно, что ты здесь.",
+        "help": ""
+    },
+    {
+        "eng": "It's strange, but it's not for you.",
+        "tr": "Странно, но э'то не для вас.",
+        "help": "it's not"
+    },
+    {
+        "eng": "It's strange, but it's for me.",
+        "tr": "Странно, но э'то для меня.",
+        "help": "it's"
+    },
+    {
+        "eng": "Excuse me, is this a coffee shop?",
+        "tr": "Извините, это кофейня?",
+        "help": "this"
+    },
+    {
+        "eng": "I'm sorry, but I'm not sure.",
+        "tr": "М'не жаль, но я' не уверен.",
+        "help": ""
+    },
+    {
+        "eng": "Excuse me, is this a coffee shop or a bank? – This is a bank.",
+        "tr": "Извините, это кофейня или банк? – Это банк.",
+        "help": ""
+    },
+    { "eng": "Thank you.", "tr": "Спасибо.", "help": "" },
+    {
+        "eng": "Are you sure, it is a bank? – Yes, I am.",
+        "tr": "Вы уверены, (что) это* банк? – Да, ...",
+        "help": "... it is ..."
+    },
+    {
+        "eng": "Am I here? – Yes, you're here.",
+        "tr": "Я здесь? – Да, ты' здесь.",
+        "help": "you're"
+    },
+    {
+        "eng": "Excuse me, is this a restaurant? – No, it isn't. This is a bank.",
+        "tr": "Извините, это ресторан? – Нет, ... Это банк.",
+        "help": "this"
+    },
+    {
+        "eng": "I'm sorry but I'm not sure.",
+        "tr": "М'не жаль, но я' не уверен.",
+        "help": ""
+    },
+    {
+        "eng": "It's very interesting, but it's strange.",
+        "tr": "Очень интересно, но странно.",
+        "help": "It's ..."
+    },
+    {
+        "eng": "I'm sorry, but it is not very interesting.",
+        "tr": "Извините, но это* не очень интересно.",
+        "help": "... sorry ... it is not"
+    },
+    {
+        "eng": "It's very strange, but it is not very interesting for me.",
+        "tr": "Очень странно, но это* не очень интересно для меня.",
+        "help": ""
+    },
+    { "eng": "So strange!", "tr": "Так странно!", "help": "" },
+    {
+        "eng": "I am not sure that it is here",
+        "tr": "Я не уверен, что это* здесь.",
+        "help": "что == that"
+    }
+]

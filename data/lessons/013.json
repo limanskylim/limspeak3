@@ -1,0 +1,98 @@
+[
+    {
+        "eng": "This is a metro. It is here.",
+        "tr": "Это метро. Оно здесь.",
+        "help": "is"
+    },
+    {
+        "eng": "This is an airport. It is here.",
+        "tr": "Это аэропорт. Он здесь.",
+        "help": "is"
+    },
+    {
+        "eng": "This is a computer. It is good.",
+        "tr": "Это компьютер. Он хороший.",
+        "help": "is"
+    },
+    { "eng": "I know it is here.", "tr": "Я знаю, он (it) здесь.", "help": "" },
+    {
+        "eng": "I know he is here.",
+        "tr": "Я знаю, (что) он здесь.",
+        "help": "is"
+    },
+    {
+        "eng": "I know she is there.",
+        "tr": "Я знаю, (что) она там.",
+        "help": "is"
+    },
+    {
+        "eng": "I know it is here.",
+        "tr": "Я знаю, (что) она (it) здесь.",
+        "help": "is"
+    },
+    {
+        "eng": "Where is the bank? — It's here.",
+        "tr": "Где банк? — Он' здесь.",
+        "help": ""
+    },
+    {
+        "eng": "What is it? — It's important information.",
+        "tr": "Что это такое? — Э'то важная информация.",
+        "help": "... it?"
+    },
+    {
+        "eng": "What is this? — It's a coffee shop.",
+        "tr": "Что это? — Э'то кофейня.",
+        "help": "… this? It' …"
+    },
+    {
+        "eng": "Is it good? — Yes, it is.",
+        "tr": "Это* хорошо? — Да, ...",
+        "help": "it"
+    },
+    { "eng": "It's too late.", "tr": "Слишком поздно.", "help": "It'" },
+    {
+        "eng": "Where is the coffee shop? — It's not here.",
+        "tr": "Где кофейня? — Она' не здесь.",
+        "help": "not"
+    },
+    {
+        "eng": "I know it's not here. — Where is it?",
+        "tr": "Я знаю, (что) э'то не здесь. — Где это?",
+        "help": "… it?"
+    },
+    {
+        "eng": "Do you know where the metro is?",
+        "tr": "Вы знаете, где находится метро?",
+        "help": ""
+    },
+    {
+        "eng": "Do you have the information? — I have it.",
+        "tr": "У вас есть информация? — У меня есть она.",
+        "help": ""
+    },
+    { "eng": "I want.", "tr": "Я хочу.", "help": "" },
+    { "eng": "They want.", "tr": "Они хотят.", "help": "" },
+    { "eng": "Do you want?", "tr": "Вы хотите?", "help": "" },
+    { "eng": "Do we want?", "tr": "Мы хотим?", "help": "" },
+    { "eng": "I have.", "tr": "У меня есть.", "help": "" },
+    { "eng": "You have.", "tr": "У вас есть.", "help": "" },
+    { "eng": "Do you have?", "tr": "У вас есть?", "help": "" },
+    { "eng": "Do they have?", "tr": "У них есть?", "help": "" },
+    { "eng": "It is a nation.", "tr": "Это* нация.", "help": "is" },
+    { "eng": "It's not a nation.", "tr": "Э'то* не нация.", "help": "not " },
+    { "eng": "I do not want.", "tr": "Я не хочу. (полная форма)", "help": "" },
+    { "eng": "I don't want.", "tr": "Я не хочу. (сокращенно)", "help": "" },
+    { "eng": "I don't have.", "tr": "У меня нет.", "help": "" },
+    {
+        "eng": "Do you know? — I don't know.",
+        "tr": "Вы знаете? — Я не знаю.",
+        "help": ""
+    },
+    { "eng": "We don't know.", "tr": "Мы не знаем.", "help": "" },
+    { "eng": "They don't know.", "tr": "Они не знают.", "help": "" },
+    { "eng": "They don't have.", "tr": "У них нет.", "help": "" },
+    { "eng": "We don't have.", "tr": "У нас нет.", "help": "" },
+    { "eng": "They aren't here.", "tr": "Их здесь нет'.", "help": "...n't" },
+    { "eng": "This is not a bank.", "tr": "Это не банк.", "help": "this" }
+]
