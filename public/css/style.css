@@ -1019,7 +1019,7 @@ form .secret-input {
   }
 
   .lesson-body {
-    height: 100vh;
+    height: 90vh;
   }
 
   .lesson-body .buttons {
@@ -1029,5 +1029,6 @@ form .secret-input {
 
   .english {
     border-bottom: none;
+    padding-top: 16px;
   }
 }
