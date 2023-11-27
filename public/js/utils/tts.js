@@ -6,6 +6,7 @@ const selectTR = document.getElementById('selectTR')
 const volume = document.getElementById('volumeSlider')
 const rate = document.getElementById('rateSlider')
 
+
 export const init = () => {
 
   return new Promise(resolve => {
@@ -60,8 +61,35 @@ export const speakTranslation = (txt) => {
 
 }
 
+// ЗАМЕНА СЛОВ перед озвучкой
+// Ваш объект с ключами и значениями
+const replacementMap = {
+  'read*': 'reed',
+  'read*?': 'reed',
+  'read*.': 'reed',
+  // Добавьте другие замены по мере необходимости
+};
+
+// Функция для замены слов в строке
+function replaceWords(inputString, replacementMap) {
+  // Разбиваем строку на слова
+  const words = inputString.split(' ');
+
+  // Заменяем слова, если они есть в replacementMap
+  const replacedWords = words.map(word => {
+    const replacement = replacementMap[word];
+    return replacement !== undefined ? replacement : word;
+  });
+
+  // Собираем строку обратно из замененных слов
+  const resultString = replacedWords.join(' ');
+
+  return resultString;
+}
+
 // Обработчик события клика по кнопке
 export const speak = (txt) => {
+  txt = replaceWords(txt, replacementMap)
 
   window.speechSynthesis.cancel()
   // Создаем объект сообщения

@@ -306,18 +306,18 @@ form .secret-input {
 
 }
 
-.in-progress.passed {
+.list-item.in-progress.passed {
   /* background: linear-gradient(to right, rgb(111 0 0) 55%, #018001 45%); */
   background: linear-gradient(to right, #800000 55%, #004934 45%);
 }
 
-.passed {
+.list-item.passed {
   /* background: linear-gradient(to right, #014701 55%, #018001 45%); */
   background: linear-gradient(to right, #004934 55%, #000000 45%);
 
 }
 
-.in-progress {
+.list-item.in-progress {
   background: linear-gradient(to right, rgb(111 0 0) 55%, black 45%)
 }
 
@@ -712,6 +712,10 @@ form .secret-input {
     padding: 8px;
     margin-bottom: 16px;
     background: linear-gradient(to left, #000 20%, #363b3d 50%);
+  }
+
+  .list-item.in-progress {
+    background: linear-gradient(to left, #000 20%, #800000 50%);
   }
 
   .list-item.in-progress.passed {
