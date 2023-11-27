@@ -1,0 +1,64 @@
+[
+    { "eng": "What do you usually...?", "tr": "Что ты обычно...?", "help": "" },
+    {
+        "eng": "Why does she always...?",
+        "tr": "Почему она всегда...?",
+        "help": ""
+    },
+    { "eng": "Where do they often...?", "tr": "Где они часто...?", "help": "" },
+    { "eng": "Why do you rarely...?", "tr": "Почему ты редко...?", "help": "" },
+    { "eng": "What d'you want?", "tr": "Чего ты' хочешь?", "help": "дью" },
+    { "eng": "How d'you work?", "tr": "Как ты' работаешь?", "help": "" },
+    { "eng": "Where d'you live?", "tr": "Где ты' живешь?", "help": "" },
+    {
+        "eng": "Why d'you go there?",
+        "tr": "Почему ты' ходишь туда?",
+        "help": ""
+    },
+    { "eng": "What d'you know?", "tr": "Что ты' знаешь?", "help": "" },
+    {
+        "eng": "When do you usually...?",
+        "tr": "Когда ты обычно...?",
+        "help": ""
+    },
+    {
+        "eng": "Why do you always...?",
+        "tr": "Почему ты всегда...?",
+        "help": ""
+    },
+    { "eng": "Where does she...?", "tr": "Где она... (покупает)?", "help": "" },
+    {
+        "eng": "What does she usually...?",
+        "tr": "Что она обычно...?",
+        "help": ""
+    },
+    { "eng": "Who do you always...?", "tr": "Кого ты всегда...?", "help": "" },
+    { "eng": "Where do we often...?", "tr": "Где мы часто...?", "help": "" },
+    {
+        "eng": "What does he...?",
+        "tr": "Что он...(принимает такое)?",
+        "help": ""
+    },
+    { "eng": "Why do you...?", "tr": "Почему ты...?", "help": "" },
+    {
+        "eng": "How does it usually...?",
+        "tr": "Как это* обычно...?",
+        "help": ""
+    },
+    { "eng": "When does she...?", "tr": "Когда она...?", "help": "" },
+    { "eng": "What do they...?", "tr": "Что они...?", "help": "" },
+    {
+        "eng": "Where do you always...?",
+        "tr": "Где ты всегда...(прячешься от налоговой полиции)?",
+        "help": ""
+    },
+    { "eng": "Who do you...?", "tr": "Кого ты...?", "help": "" },
+    { "eng": "Where does he often...?", "tr": "Где он часто...?", "help": "" },
+    { "eng": "Where do they...?", "tr": "Где они...(бродят)?", "help": "" },
+    {
+        "eng": "Why does it always...?",
+        "tr": "Почему это* всегда...?",
+        "help": ""
+    },
+    { "eng": "How do you usually...?", "tr": "Как ты обычно...?", "help": "" }
+]
