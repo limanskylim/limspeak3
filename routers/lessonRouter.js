@@ -26,7 +26,7 @@ router.get('/', async (req, res) => {
     res.redirect('/')
     return
   }
-
+  console.log('userId - ', userId)
   const wob = await ifWOB(userId)
   const newList = await getList(wob, userId)
 

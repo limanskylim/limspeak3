@@ -1,4 +1,5 @@
 const express = require('express')
+const archiver = require('archiver');
 
 const fs = require('fs');
 const path = require('path');
@@ -23,6 +24,34 @@ router.get('/', (req, res) => {
     title: `Lim Program - admin`,
 
   })
+})
+
+router.get('/downloaddir', (req, res) => {
+  const folderPath = req.query.dirName;
+  // const folderPath = path.join(__dirname, dirName);
+  const zipFileName = 'data.zip';
+
+  // Создаем архиватор
+  try {
+    const archive = archiver('zip', { zlib: { level: 9 } });
+
+    // Подключаем поток архиватора к ответу
+    archive.pipe(res);
+
+    // Добавляем все файлы из папки в архив
+    archive.directory(folderPath, false);
+
+    // Закрываем архив и отправляем его клиенту
+    archive.finalize();
+
+    // Устанавливаем заголовки для скачивания
+    res.attachment(zipFileName);
+
+  } catch (error) {
+    console.log(error)
+    res.status(500).send('что-то пошло не так с архивом')
+  }
+
 })
 
 router.get('/download', (req, res) => {

@@ -1,6 +1,12 @@
 <div id='admin-page' class='admin-page'>
     
     <h1>Панель администратора</h1>
+    <form action="/admin/downloaddir" method="get">
+        <label for="fileName">Имя директории:</label>
+        <input type="text" id="dirName" name="dirName">
+        <button type="submit">Скачать папку с файлами</button>
+    </form>
+
     <form action="/admin/download" method="get">
         <label for="fileName">Имя файла:</label>
         <input type="text" id="fileName" name="fileName">

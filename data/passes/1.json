@@ -185,10 +185,23 @@
         "userId": 1,
         "result": { "count": 36, "mistakes": 33 }
     },
+
     {
         "date": "11.11.2023, 15:36:44",
         "lessonId": 18,
         "userId": 1,
         "result": { "count": 36, "mistakes": 46 }
+    },
+    {
+        "date": "30.11.2023, 18:46:45",
+        "lessonId": 4029,
+        "userId": 1,
+        "result": { "count": 28, "mistakes": 19 }
+    },
+    {
+        "date": "01.12.2023, 9:08:08",
+        "lessonId": 28,
+        "userId": 1,
+        "result": { "count": 28, "mistakes": 24 }
     }
 ]

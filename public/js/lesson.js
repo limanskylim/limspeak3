@@ -51,7 +51,8 @@ document.addEventListener("DOMContentLoaded", function () {
     timer = setTimeout(() => {
       canPressButton = true
       buttons.forEach(btn => btn.removeAttribute('disabled'))
-      engBox.textContent = eng
+
+      engBox.textContent = eng.replace(/[*^]/g, '');
       if (!isCorrection)
         speak(eng)
     }, delay + eng.length * 125);

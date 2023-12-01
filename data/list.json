@@ -69,5 +69,7 @@
     { "id": 4033, "name": "Trainer 012-4", "dataUrl": "t012-4.json" },
     { "id": 4034, "name": "Trainer 012-5", "dataUrl": "t012-5.json" },
     { "id": 5001, "name": "Red Murphi #01-1", "dataUrl": "red-01-1.json" },
+    { "id": 28, "name": "Day 4 Part 5-1", "dataUrl": "028.json" },
+    { "id": 29, "name": "Day 4 Part 5-2", "dataUrl": "029.json" },
     { "id": 100, "name": "TEST", "dataUrl": "100.json" }
 ]

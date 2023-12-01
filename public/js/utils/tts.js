@@ -63,33 +63,21 @@ export const speakTranslation = (txt) => {
 
 // ЗАМЕНА СЛОВ перед озвучкой
 // Ваш объект с ключами и значениями
-const replacementMap = {
+const table = {
   'read*': 'reed',
-  'read*?': 'reed',
-  'read*.': 'reed',
-  // Добавьте другие замены по мере необходимости
+  'read^': 'red',
+
 };
 
-// Функция для замены слов в строке
-function replaceWords(inputString, replacementMap) {
-  // Разбиваем строку на слова
-  const words = inputString.split(' ');
+function replaceWithTable(inputString, replacementTable) {
+  const regex = new RegExp(Object.keys(replacementTable).map(key => key.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1")).join('|'), 'g');
 
-  // Заменяем слова, если они есть в replacementMap
-  const replacedWords = words.map(word => {
-    const replacement = replacementMap[word];
-    return replacement !== undefined ? replacement : word;
-  });
-
-  // Собираем строку обратно из замененных слов
-  const resultString = replacedWords.join(' ');
-
-  return resultString;
+  return inputString.replace(regex, match => replacementTable[match] || match);
 }
 
 // Обработчик события клика по кнопке
 export const speak = (txt) => {
-  txt = replaceWords(txt, replacementMap)
+  txt = replaceWithTable(txt, table)
 
   window.speechSynthesis.cancel()
   // Создаем объект сообщения
