@@ -1,5 +1,4 @@
 const fs = require('fs').promises
-const deleteCurrentUserWOB = require('../users/delete_current_user_wob')
 
 async function loadFile(filePath) {
   try {
@@ -74,14 +73,11 @@ const getLesson = async (id, userId) => {
       console.log('new itemsArr.length', itemsArr.length)
 
       // остатки элементов в itemsArr записываем в data/wob/{iserId}.json
-      fs.writeFile(filePath, JSON.stringify(itemsArr))
+      await fs.writeFile(filePath, JSON.stringify(itemsArr))
 
       // выбрвнные уникальные элементы записываем в data/wob.json
-      fs.writeFile('data/wob.json', JSON.stringify(itemsUnique))
+      await fs.writeFile('data/wob.json', JSON.stringify(itemsUnique))
 
-      //данные для урока над ошибками получены
-      //теперь их можно удалить
-      // deleteCurrentUserWOB() //!!! НЕ ПРОВЕРЕНО !!!
       items = await loadFile(`data/wob.json`)
     } else {
       // items = require(`../../data/lessons/${lesson.dataUrl}`)

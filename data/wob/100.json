@@ -1,1 +1,53 @@
-[{"eng":"The Past Simple Tense","tr":"Простое прошедшее время","help":""},{"eng":"go - went - gone","tr":"идти - 3 формы","help":"go"},{"eng":"Where did Tom go?","tr":"Куда пошёл Том?","help":""},{"eng":"Where did Tom go?","tr":"Куда пошёл Том?","help":""},{"eng":"The Past Simple Tense","tr":"Простое прошедшее время","help":""},{"eng":"Do they sometimes meet?","tr":"Они иногда встречаются?","help":""},{"eng":"Do you rarely build?","tr":"Ты редко строишь?","help":""},{"eng":"Where do they usually fly?","tr":"Куда они обычно летают?","help":""},{"eng":"What d'you usually get there?","tr":"Что ты' обычно получаешь там?","help":""},{"eng":"Who understands it?","tr":"Кто это* понимает?","help":""},{"eng":"Who understands it?","tr":"Кто это* понимает?","help":""},{"eng":"What does he often get?","tr":"Что он часто получает?","help":""},{"eng":"Don't you understand that I don't speak German well?","tr":"Разве ты не понимаешь, что я плохо* говорю по-немецки?","help":""},{"eng":"He's not a doctor. He's a cashier.","tr":"Он не врач. Он кассир.","help":"kæˈʃɪr"},{"eng":"Do you want to have it? — No, I don't.","tr":"Ты хочешь иметь это*? — Нет, ...","help":""}]
+[
+    {
+        "eng": "The Past Simple Tense",
+        "tr": "Простое прошедшее время",
+        "help": ""
+    },
+    { "eng": "go - went - gone", "tr": "идти - 3 формы", "help": "go" },
+    { "eng": "Where did Tom go?", "tr": "Куда пошёл Том?", "help": "" },
+    { "eng": "Where did Tom go?", "tr": "Куда пошёл Том?", "help": "" },
+    {
+        "eng": "The Past Simple Tense",
+        "tr": "Простое прошедшее время",
+        "help": ""
+    },
+    {
+        "eng": "Do they sometimes meet?",
+        "tr": "Они иногда встречаются?",
+        "help": ""
+    },
+    { "eng": "Do you rarely build?", "tr": "Ты редко строишь?", "help": "" },
+    {
+        "eng": "Where do they usually fly?",
+        "tr": "Куда они обычно летают?",
+        "help": ""
+    },
+    {
+        "eng": "What d'you usually get there?",
+        "tr": "Что ты' обычно получаешь там?",
+        "help": ""
+    },
+    { "eng": "Who understands it?", "tr": "Кто это* понимает?", "help": "" },
+    { "eng": "Who understands it?", "tr": "Кто это* понимает?", "help": "" },
+    {
+        "eng": "What does he often get?",
+        "tr": "Что он часто получает?",
+        "help": ""
+    },
+    {
+        "eng": "Don't you understand that I don't speak German well?",
+        "tr": "Разве ты не понимаешь, что я плохо* говорю по-немецки?",
+        "help": ""
+    },
+    {
+        "eng": "He's not a doctor. He's a cashier.",
+        "tr": "Он не врач. Он кассир.",
+        "help": "kæˈʃɪr"
+    },
+    {
+        "eng": "Do you want to have it? — No, I don't.",
+        "tr": "Ты хочешь иметь это*? — Нет, ...",
+        "help": ""
+    }
+]

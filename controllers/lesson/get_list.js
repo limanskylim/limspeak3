@@ -40,8 +40,8 @@ async function loadFile(filePath) {
     const fileData = await fs.readFile(filePath, 'utf8');
     return JSON.parse(fileData);
   } catch (error) {
-    // console.log('get_list.js ' + filePath + ' NO exists')
-    // console.log(error)
+    console.log('get_list.js ' + filePath + ' NO exists')
+    console.log(error)
     return []
   }
 }
@@ -65,6 +65,7 @@ const getList = async (wob = false, userId) => {
   const savings = await loadFile(filePath)
 
   let html = ''
+  let wobCount = '';
 
   for (let i = 0; i < allList.length; i++) {
     let currentLessonId = allList[i].id
@@ -73,6 +74,10 @@ const getList = async (wob = false, userId) => {
 
     let currentSaving = savings.find(el => +el.lessonId == currentLessonId)
     if (currentSaving) ifsavings = 'in-progress'
+
+    if (i === 0) console.log(currentSaving.items.length)
+    if (i === 0 && currentSaving) wobCount = ' - ' + currentSaving.items.length + ' items'
+    if (i !== 0) wobCount = ''
 
     // const passedCurrentLesson = passes.filter(el => +el.lessonId === i + 1)
     const passedCurrentLesson = passes.filter(el => +el.lessonId == currentLessonId)
@@ -106,8 +111,14 @@ const getList = async (wob = false, userId) => {
         `
     }
 
-    const style = i === 0 && !wob ? 'style="display: none;"' : ''
-    const demoStyle = i === 0 && wob ? 'style="display: none;"' : ''
+    // const style = i === 0 && !wob ? 'style="display: none;"' : ''
+    let style = ''
+    if (i === 0 && !wob) style = "display: none;"
+    if (i === 0 && ifsavings) style = ''
+
+    // const demoStyle = i === 0 && wob ? 'style="display: none;"' : ''
+    let demoStyle = ''
+    if (i === 0) demoStyle = 'style="display: none;"'
 
     //CURRENT USER SETTINGS 
     filePath = 'data/user_settings.json'
@@ -122,7 +133,7 @@ const getList = async (wob = false, userId) => {
     <div id=${allList[i].id} class="list-item ${ifsavings} ${ifpassed}" ${style} ${lastLesson}>
         <div class="title">
             <div class="list-left">
-              <div class="lesson-name">${allList[i].name}</div>
+              <div class="lesson-name">${allList[i].name} ${wobCount}</div>
               <div class="demo" ${demoStyle}><a href=${'/lessons/demo/' + allList[i].id + '/' + userId}></a></div>
             </div>
              
