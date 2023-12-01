@@ -41,7 +41,7 @@ async function loadFile(filePath) {
     return JSON.parse(fileData);
   } catch (error) {
     // console.log('get_list.js ' + filePath + ' NO exists')
-    console.log(error)
+    // console.log(error)
     return []
   }
 }
@@ -56,8 +56,8 @@ const getList = async (wob = false, userId) => {
 
   const passes = await loadFile(filePath)
 
-  console.log('filePath - ', filePath)
-  console.log('passes - ', JSON.stringify(passes))
+  // console.log('filePath - ', filePath)
+  // console.log('passes - ', JSON.stringify(passes))
 
   //USER SAVINGS
   filePath = `${global.savingsUrl}${userId}.json`
