@@ -28,6 +28,7 @@ const ifWOB = async (userId) => {
    * тогда выходим
    * и не пытаемся загрузить ещё одну работу над ошибками
    */
+  /*
   let filePath = `${global.savingsUrl}${userId}.json`
 
   //ищем savings для текущего юзера
@@ -38,6 +39,7 @@ const ifWOB = async (userId) => {
   //если есть сохранения для wob то показываем блок работы над ошибками
 
   if (ifsavings) return true
+  */
   //проверяем есть ли ошибки у текущего юзера 
   //находим содержатся ли записи для него в global.wob (data/wob.json)
   filePath = `${global.wobUrl}${userId}.json`

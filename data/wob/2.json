@@ -1,26 +1,4 @@
 [
-    { "eng": "fast — faster", "tr": "быстро — быстрее", "help": "" },
-    {
-        "eng": "I want to do it faster.",
-        "tr": "Я хочу сделать это* быстрее.",
-        "help": ""
-    },
-    {
-        "eng": "Where do they want to do it?",
-        "tr": "Где они хотят это* сделать?",
-        "help": ""
-    },
-    {
-        "eng": "Do they want to do it here? — Yes, they do.",
-        "tr": "Они хотят сделать это* здесь? — Да, ...",
-        "help": ""
-    },
-    {
-        "eng": "The plumber is good.",
-        "tr": "(Этот) сантехник хороший.",
-        "help": ""
-    },
-    { "eng": "good — well", "tr": "хороший — хорошо", "help": "" },
     {
         "eng": "The plumber is good.",
         "tr": "(Этот) сантехник хороший.",
@@ -29,22 +7,6 @@
     {
         "eng": "We speak German well.",
         "tr": "Мы говорим по-немецки хорошо.",
-        "help": ""
-    },
-    { "eng": "Is the plumber good?", "tr": "Сантехник хороший?", "help": "" },
-    {
-        "eng": "We speak German well.",
-        "tr": "Мы говорим по-немецки хорошо.",
-        "help": ""
-    },
-    {
-        "eng": "I don't speak Italian well.",
-        "tr": "Я плохо* говорю по-итальянски.",
-        "help": "Try not to use \"bad\"!"
-    },
-    {
-        "eng": "I speak Russian a little.",
-        "tr": "Я немного говорю по-русски.",
         "help": ""
     },
     {
@@ -62,22 +24,7 @@
         "tr": "Я хочу сделать это* быстрее.",
         "help": ""
     },
-    {
-        "eng": "Do you want to do it tonight? — No, I don't.",
-        "tr": "Ты хочешь сделать это* сегодня вечером? — Нет, ...",
-        "help": ""
-    },
     { "eng": "good — well", "tr": "хороший — хорошо", "help": "" },
-    {
-        "eng": "Do you want to do it? — Well, I don't know.",
-        "tr": "Ты хочешь это делать? — Ну, не знаю.",
-        "help": ""
-    },
-    {
-        "eng": "We know you too well.",
-        "tr": "Мы слишком хорошо тебя знаем.",
-        "help": ""
-    },
     {
         "eng": "I speak Russian a little.",
         "tr": "Я немного говорю по-русски.",
@@ -105,44 +52,12 @@
     { "eng": "at night", "tr": "ночью", "help": "" },
     { "eng": "They often fly.", "tr": "Они часто летают.", "help": "" },
     { "eng": "always", "tr": "всегда", "help": "" },
-    { "eng": "at night", "tr": "ночью", "help": "" },
-    { "eng": "They often fly.", "tr": "Они часто летают.", "help": "" },
-    { "eng": "always", "tr": "всегда", "help": "" },
     {
         "eng": "Does he ever eat fish?",
         "tr": "Он вообще ест рыбу?",
         "help": ""
     },
-    {
-        "eng": "Does he ever eat fish?",
-        "tr": "Он вообще ест рыбу?",
-        "help": ""
-    },
-    { "eng": "Does she always...?", "tr": "Она всегда...?", "help": "" },
-    { "eng": "Does he sometimes...?", "tr": "Он иногда...?", "help": "" },
-    { "eng": "the same", "tr": "тоже самое", "help": "" },
-    {
-        "eng": "Do you ever learn English?",
-        "tr": "Ты вообще учишь английский?",
-        "help": "lɜrn"
-    },
-    {
-        "eng": "Do you often take it?",
-        "tr": "Ты часто берешь это*?",
-        "help": ""
-    },
-    {
-        "eng": "Do they sometimes meet?",
-        "tr": "Они иногда встречаются?",
-        "help": ""
-    },
     { "eng": "Does it ever work?", "tr": "Это* вообще работает?", "help": "" },
-    { "eng": "Does it ever work?", "tr": "Это* вообще работает?", "help": "" },
-    {
-        "eng": "Do they often do the same?",
-        "tr": "Они часто делают то же самое?",
-        "help": ""
-    },
     {
         "eng": "Do they often do the same?",
         "tr": "Они часто делают то же самое?",
@@ -164,31 +79,6 @@
         "help": ""
     },
     {
-        "eng": "He always chooses the same. — Does he?",
-        "tr": "Он всегда выбирает одно и то же. — Неужели*?",
-        "help": ""
-    },
-    {
-        "eng": "She always buys the same. — Does she?",
-        "tr": "Она всегда покупает одно и то же. — Правда*?",
-        "help": ""
-    },
-    {
-        "eng": "They rarely meet. — Do they?",
-        "tr": "Они редко встречаются. — Точно*?",
-        "help": ""
-    },
-    {
-        "eng": "It always works. — Does it?",
-        "tr": "Это всегда работает. — Да ну*?",
-        "help": ""
-    },
-    {
-        "eng": "Sometimes I reed. — Do you?",
-        "tr": "Иногда я читаю. — Действительно*?",
-        "help": "должно звучать \"риид\""
-    },
-    {
         "eng": "They rarely meet. — Do they?",
         "tr": "Они редко встречаются. — Точно*?",
         "help": ""
@@ -196,36 +86,6 @@
     {
         "eng": "They rarely meet. — Do they?",
         "tr": "Они редко встречаются. — Точно*?",
-        "help": ""
-    },
-    {
-        "eng": "We learn Italian. — Do you?",
-        "tr": "Мы учим итальянский. — Реально*?",
-        "help": ""
-    },
-    {
-        "eng": "You know me. — Do I?",
-        "tr": "Ты меня знаешь. — Я*?",
-        "help": ""
-    },
-    {
-        "eng": "She usually sleeps there. — Does she?",
-        "tr": "Она обычно спит там. — Не врешь*?",
-        "help": ""
-    },
-    {
-        "eng": "It always burns. — Does it?",
-        "tr": "Это всегда горит. — Реально*?",
-        "help": ""
-    },
-    {
-        "eng": "He rarely goes there. — Does he?",
-        "tr": "Он редко ходит туда. — Да ну*?",
-        "help": ""
-    },
-    {
-        "eng": "They usually begin at five. — Do they?",
-        "tr": "Они обычно начинают в пять. — Точно*?",
         "help": ""
     },
     {
@@ -242,11 +102,6 @@
         "eng": "They usually begin at five. — Do they?",
         "tr": "Они обычно начинают в пять. — Точно*?",
         "help": "begin"
-    },
-    {
-        "eng": "You often drink wine. — Do I?",
-        "tr": "Ты часто пьешь вино. — Я*?",
-        "help": ""
     },
     {
         "eng": "She usually sleeps there. — Does she?",
@@ -267,11 +122,6 @@
         "eng": "They usually begin at five. — Do they?",
         "tr": "Они обычно начинают в пять. — Точно*?",
         "help": "begin"
-    },
-    {
-        "eng": "You rarely give money. — Do we?",
-        "tr": "Вы редко даете деньги. — Мы?",
-        "help": ""
     },
     {
         "eng": "They rarely meet. — Do they?",
@@ -299,19 +149,8 @@
         "help": ""
     },
     {
-        "eng": "Do you understand? — Well, I don't think so.",
-        "tr": "Ты понимаешь? — Ну, мне так не кажется.",
-        "help": "so"
-    },
-    {
         "eng": "We know you too well.",
         "tr": "Мы слишком хорошо тебя знаем.",
-        "help": ""
-    },
-    { "eng": "often", "tr": "часто", "help": "" },
-    {
-        "eng": "Do you ever go there?",
-        "tr": "Ты когда-либо ходишь туда?",
         "help": ""
     },
     {
@@ -334,7 +173,6 @@
         "tr": "Он вообще ест рыбу?",
         "help": ""
     },
-    { "eng": "Does it always...?", "tr": "Оно всегда...?", "help": "" },
     {
         "eng": "Do you understand? — Well, I don't think so.",
         "tr": "Ты понимаешь? — Ну, мне так не кажется.",
@@ -354,23 +192,8 @@
     { "eng": "Does it always...?", "tr": "Оно всегда...?", "help": "" },
     { "eng": "Does he sometimes...?", "tr": "Он иногда...?", "help": "" },
     {
-        "eng": "Does he always choose the same?",
-        "tr": "Он всегда выбирает одно и то же?",
-        "help": ""
-    },
-    {
-        "eng": "Does he always give money?",
-        "tr": "Он всегда дает деньги?",
-        "help": ""
-    },
-    {
         "eng": "They rarely meet. — Do they?",
         "tr": "Они редко встречаются. — Точно*?",
-        "help": ""
-    },
-    {
-        "eng": "She often does it. — Does she?",
-        "tr": "Она часто это делает. — Правда*?",
         "help": ""
     }
 ]

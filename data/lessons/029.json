@@ -1,1 +1,104 @@
-[{"eng":"my","tr":"мой","help":""},{"eng":"your","tr":"твой","help":""},{"eng":"my culture","tr":"моя культура","help":""},{"eng":"It's my culture.","tr":"Это* моя культура.","help":""},{"eng":"Is it your culture?","tr":"Это* ваша культура?","help":""},{"eng":"It's not your culture.","tr":"Это* не' ваша культура.","help":""},{"eng":"It's Russian literature.","tr":"Это* русская литература.","help":"ˈlɪtərəʧər"},{"eng":"Is it English literature?","tr":"Это* английская литература?","help":""},{"eng":"Do you understand Russian literature?","tr":"Ты понимаешь русскую литературу?","help":""},{"eng":"It's Russian nature.","tr":"Это* русская природа.","help":""},{"eng":"I want to speak English and I want to understand English culture.","tr":"Я хочу говорить по-английски и понимать английскую культуру.","help":""},{"eng":"It's very interesting for me.","tr":"Она (культура) очень интересна для меня.","help":""},{"eng":"My doctor is very good.","tr":"Мой врач очень хороший.","help":""},{"eng":"Your doctor is very strange.","tr":"Твой врач очень странный.","help":""},{"eng":"He's not a doctor. He's a cashier.","tr":"Он не врач. Он кассир.","help":"kæˈʃɪr"},{"eng":"Isn't it your doctor?","tr":"Разве это* не твой доктор?","help":""},{"eng":"This is my computer.","tr":"Это мой компьютер.","help":""},{"eng":"Is this your mobile phone?","tr":"Это твой мобильный телефон?","help":"this"},{"eng":"I want to understand your culture.","tr":"Я хочу понять вашу культуру.","help":""},{"eng":"high","tr":"высокая*","help":"NOT tall"},{"eng":"I think she has a high temperature.","tr":"Думаю, у неё высокая температура.","help":""},{"eng":"Russian literature is very good.","tr":"Русская литература очень хорошая.","help":""},{"eng":"My mobile phone isn't very good.","tr":"Мой мобильный телефон не очень хороший.","help":""},{"eng":"I don't know what to do.","tr":"Не знаю, что делать.","help":""},{"eng":"Do you want to have it? — No, I don't.","tr":"Ты хочешь иметь это*? — Нет, ...","help":""},{"eng":"He's not a cashier. He's my doctor. He's very good.","tr":"Он не кассир. Он мой врач. Он очень хороший.","help":""}]
+[
+    { "eng": "my", "tr": "мой", "help": "" },
+    { "eng": "your", "tr": "твой", "help": "" },
+    { "eng": "my culture", "tr": "моя культура", "help": "" },
+    { "eng": "It's my culture.", "tr": "Это* моя культура.", "help": "" },
+    { "eng": "Is it your culture?", "tr": "Это* ваша культура?", "help": "" },
+    {
+        "eng": "It's not your culture.",
+        "tr": "Это* не' ваша культура.",
+        "help": ""
+    },
+    {
+        "eng": "It's Russian literature.",
+        "tr": "Это* русская литература.",
+        "help": "ˈlɪtərəʧər"
+    },
+    {
+        "eng": "Is it English literature?",
+        "tr": "Это* английская литература?",
+        "help": ""
+    },
+    {
+        "eng": "Do you understand Russian literature?",
+        "tr": "Ты понимаешь русскую литературу?",
+        "help": ""
+    },
+    {
+        "eng": "It's Russian nature.",
+        "tr": "Это* русская природа.",
+        "help": ""
+    },
+    {
+        "eng": "I want to speak English and I want to understand English culture.",
+        "tr": "Я хочу говорить по-английски и понимать английскую культуру.",
+        "help": ""
+    },
+    {
+        "eng": "It's very interesting for me.",
+        "tr": "Она (культура) очень интересна для меня.",
+        "help": ""
+    },
+    {
+        "eng": "My doctor is very good.",
+        "tr": "Мой врач очень хороший.",
+        "help": ""
+    },
+    {
+        "eng": "Your doctor is very strange.",
+        "tr": "Твой врач очень странный.",
+        "help": ""
+    },
+    {
+        "eng": "He's not a doctor. He's a cashier.",
+        "tr": "Он не врач. Он кассир.",
+        "help": "kæˈʃɪr"
+    },
+    {
+        "eng": "Isn't it your doctor?",
+        "tr": "Разве это* не твой доктор?",
+        "help": ""
+    },
+    { "eng": "This is my computer.", "tr": "Это мой компьютер.", "help": "" },
+    {
+        "eng": "Is this your mobile phone?",
+        "tr": "Это твой мобильный телефон?",
+        "help": "this"
+    },
+    {
+        "eng": "I want to understand your culture.",
+        "tr": "Я хочу понять вашу культуру.",
+        "help": ""
+    },
+    { "eng": "high", "tr": "высокая*", "help": "NOT tall" },
+    {
+        "eng": "I think she has a high temperature.",
+        "tr": "Думаю, у неё высокая температура.",
+        "help": ""
+    },
+    {
+        "eng": "Russian literature is very good.",
+        "tr": "Русская литература очень хорошая.",
+        "help": ""
+    },
+    {
+        "eng": "My mobile phone isn't very good.",
+        "tr": "Мой мобильный телефон не очень хороший.",
+        "help": ""
+    },
+    {
+        "eng": "I don't know what to do.",
+        "tr": "Не знаю, что делать.",
+        "help": ""
+    },
+    {
+        "eng": "Do you want to have it? — No, I don't.",
+        "tr": "Ты хочешь иметь это*? — Нет, ...",
+        "help": ""
+    },
+    {
+        "eng": "He's not a cashier. He's my doctor. He's very good.",
+        "tr": "Он не кассир. Он мой врач. Он очень хороший.",
+        "help": ""
+    }
+]

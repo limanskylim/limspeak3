@@ -75,7 +75,7 @@ const getList = async (wob = false, userId) => {
     let currentSaving = savings.find(el => +el.lessonId == currentLessonId)
     if (currentSaving) ifsavings = 'in-progress'
 
-    if (i === 0) console.log(currentSaving.items.length)
+    if (i === 0 && currentSaving) console.log(currentSaving.items.length)
     if (i === 0 && currentSaving) wobCount = ' - ' + currentSaving.items.length + ' items'
     if (i !== 0) wobCount = ''
 
@@ -113,7 +113,7 @@ const getList = async (wob = false, userId) => {
 
     // const style = i === 0 && !wob ? 'style="display: none;"' : ''
     let style = ''
-    if (i === 0 && !wob) style = "display: none;"
+    if (i === 0 && !wob) style = 'style="display: none;"'
     if (i === 0 && ifsavings) style = ''
 
     // const demoStyle = i === 0 && wob ? 'style="display: none;"' : ''
